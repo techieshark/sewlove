@@ -1781,6 +1781,10 @@ ul#nav li.current a:after {
 
 /* team members
 -------------------------------------------------------------- */
+.team, #team-wrapper {
+	display: none;
+}
+
 #about .team {
 	margin-top: 30px;
 }
