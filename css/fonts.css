@@ -170,3 +170,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'gooddog';
+    src: url('../fonts/gooddog/GoodDog-webfont.eot');
+    src: url('../fonts/gooddog/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gooddog/GoodDog-webfont.woff') format('woff'),
+         url('../fonts/gooddog/GoodDog-webfont.ttf') format('truetype'),
+         url('../fonts/gooddog/GoodDog-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
