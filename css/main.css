@@ -28,6 +28,8 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
+/** { font-family: 'gooddog' !important; }*/
+
 
 /** 
 /* 02. =document setup
@@ -42,7 +44,8 @@ body {
 
 body {
 	background: #0F1215;
-	font: 16px/30px "merriweather-regular", serif;
+	background: #FBEDC4;
+	font: 16px/30px sans-serif;
 	font-weight: normal;
 	color: #575859;
 }
@@ -641,6 +644,7 @@ header {
 header.opaque {
 	background: black;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	background: #FBEDC4;
 }
 
 /* header logo */
@@ -692,6 +696,7 @@ header .header-social li {
 
 header .header-social li a {
 	color: #FFFFFF;
+	color: black;
 }
 
 header .header-social li a:hover {
@@ -735,7 +740,7 @@ header .header-social li a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-	font: 13px "raleway-heavy", sans-serif;
+	font: 21x gooddog, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	float: left;  
@@ -777,8 +782,7 @@ ul#nav li a {
 	-o-transition: color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out;
-}
+	transition: color 0.2s ease-in-out;color: black;}
 
 ul#nav li a:hover {
 	color: #fdc501;
@@ -790,6 +794,7 @@ ul#nav li a:active {
 
 ul#nav li.current a {
 	color: #fdc501;
+	color: #8FE8C8;
 }
 
 ul#nav li.current a:after {
@@ -1059,7 +1064,7 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:1200px) {
 	#hero-slider .slides .flex-caption h1 {
-		font: 44px/1.3 "raleway-bold", sans-serif;
+		font: 64px/1.3 "raleway-bold", sans-serif;
 	}
 
 }
@@ -1293,7 +1298,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #111417;
+	background: #FBEDC4;
 	padding-top: 120px;
 	border-bottom: 1px solid #15191d;  
 }
