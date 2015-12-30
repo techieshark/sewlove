@@ -1680,6 +1680,7 @@ ul#nav li.current a:after {
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
+	display: none; /* no need for this content right now */
 }
 
 .service-list {
