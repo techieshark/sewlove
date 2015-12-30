@@ -974,7 +974,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #FBEDC4 url(../images/hero-bg.jpg) no-repeat center;
+	background: #FBEDC4 url(../images/hero-bg-min.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
