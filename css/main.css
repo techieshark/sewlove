@@ -2530,9 +2530,9 @@ footer .info {
 }
 
 footer .footer-logo {
-	width: 100px;
-	height: 23px;
-	background: url("../images/sewlove-logoW@2x.png") no-repeat center;
+	width: 80px;
+	height: 70px;
+	background: url("../images/logo-light@2x.png") no-repeat center;
 	background-size: 61px 40px;
 	margin: 0 auto 21px;
 	display: block;
