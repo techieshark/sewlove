@@ -2540,10 +2540,10 @@ footer .footer-logo {
 	background-size: 61px 40px;
 	margin: 0 auto 21px;
 	display: block;
-	filter: alpha(opacity=10);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
-	opacity: 0.1;
-	zoom: 1;
+	filter: alpha(opacity=50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	opacity: 0.5;
+	zoom:1;
 }
 
 /* copyright */
