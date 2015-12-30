@@ -21,7 +21,7 @@
 
       });       
 
-  	})
+  	});
 
 
   	/*----------------------------------------------------*/
@@ -145,7 +145,7 @@
                         title: "Menu",
                         href : "#" } 
                         );
-  	var nav_wrap = $('nav#nav-wrap')
+  	var nav_wrap = $('nav#nav-wrap');
   	var nav = $("ul#nav");  
    
    /* if JS is enabled, remove the two a.mobile-btns 
