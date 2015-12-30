@@ -796,6 +796,7 @@ ul#nav li a:active {
 
 ul#nav li.current a {
 	color: #389A8A;
+	font-weight: 800;
 }
 
 ul#nav li.current a:after {
