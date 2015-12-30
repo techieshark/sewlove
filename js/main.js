@@ -174,19 +174,23 @@
   	/* Smooth Scrolling
   	------------------------------------------------------ */
   	$('.smoothscroll').on('click', function (e) {
-	 	
-	 	e.preventDefault();
 
-   	var target = this.hash,
-    	$target = $(target);
+      e.preventDefault();
 
-    	$('html, body').stop().animate({
-       	'scrollTop': $target.offset().top
-      }, 800, 'swing', function () {
-      	window.location.hash = target;
+   	  var target = this.hash;
+      smoothScroll(target);
+  	});
+
+    function smoothScroll(target) {
+      var $target = $(target);
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 800, 'swing', function () {
+         window.location.hash = target;
       });
+    }
 
-  	});  
+
   
 
    /*----------------------------------------------------*/
@@ -205,6 +209,13 @@
     $(document).on('click', '.popup-modal-dismiss', function (e) {
     		e.preventDefault();
     		$.magnificPopup.close();
+    });
+
+    $(document).on('click', '.popup-modal-contact', function (e) {
+            e.preventDefault();
+            $.magnificPopup.close();
+            smoothScroll('#contact');
+
     });
 
 
