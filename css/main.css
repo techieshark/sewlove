@@ -1780,14 +1780,14 @@ ul#nav li.current a:after {
 	margin-bottom: 6px;
 }
 
-/* process
--------------------------------------------------------------- */
-.process {
 #about a, #about a:visited {
 	color: #389A8A;
 	text-decoration: underline;
 }
 
+/* process
+-------------------------------------------------------------- */
+.process {
 	margin-top: 12px;
 }
 
