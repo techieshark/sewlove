@@ -43,11 +43,10 @@ body {
 }
 
 body {
-	background: #0F1215;
 	background: #FBEDC4;
 	font: 16px/30px 'Source Sans Pro', sans-serif;
 	font-weight: normal;
-	color: #575859;
+	color: #1B4B43;
 }
 
 /* links 
@@ -573,7 +572,7 @@ hr {
 	font: 25px/30px "gooddog", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	color: #FFFFFF;
+	color: #389A8A;
 	margin-bottom: 30px;
 	margin-top: 18px;
 }
@@ -650,19 +649,16 @@ header {
 header.opaque {
 	background: black;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	background: #FBEDC4;
+	background: #FFFFD6;
 }
 
 /* header logo */
 header .logo {
-	background: #fdc501;
 	float: left;
 	width: auto;
 	margin-left: 15px;
 	margin-right: 30px;
-	z-index: 600;    
-	
-	/* add position relative since z-index only applies to  
+	z-index: 600;/* add position relative since z-index only applies to  
 	elements that have been given an explicit position */
 	position: relative;
 }
@@ -706,7 +702,7 @@ header .header-social li a {
 }
 
 header .header-social li a:hover {
-	color: #fdc501;
+	color: #389A8A;
 }
 
 /* media queries:  
@@ -791,7 +787,7 @@ ul#nav li a {
 	transition: color 0.2s ease-in-out;color: black;}
 
 ul#nav li a:hover {
-	color: #fdc501;
+	color: #389A8A;
 }
 
 ul#nav li a:active {
@@ -799,8 +795,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-	color: #fdc501;
-	color: #8FE8C8;
+	color: #389A8A;
 }
 
 ul#nav li.current a:after {
@@ -1307,9 +1302,14 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #FBEDC4;
+	background: #659298;
 	padding-top: 120px;
-	border-bottom: 1px solid #15191d;  
+	border-bottom: 1px solid #15191d;
+	color: white;
+}
+
+#portfolio h1 {
+	color: white;
 }
 
 #portfolio .row.items {
@@ -1675,7 +1675,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #services {
-	background: #12151B;
+	background: #E9FCF9;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -1760,10 +1760,13 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-	background: #111417;
+	background: white;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
+	color: #1C464B;
+#about h1 {
+	color: #1C464B;
 }
 
 #about h3 {
@@ -2057,6 +2060,7 @@ ul#nav li.current a:after {
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
+	background: #32484B;
 }
 
 #testimonials .flex-container {
@@ -2230,6 +2234,10 @@ ul#nav li.current a:after {
 	color: #fdc501;
 	padding: 0;
 	margin-bottom: 6px;
+}
+
+#contact p {
+	color: #707273;
 }
 
 #contact .left {
@@ -2480,7 +2488,8 @@ footer {
 	padding-top: 60px;
 	padding-bottom: 24px;
 	position: relative;
-	color: rgba(255, 255, 255, 0.15);
+	color: rgba(255, 255, 255, 0.45);
+	background: black;
 }
 
 footer .content {
