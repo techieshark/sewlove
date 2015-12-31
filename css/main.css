@@ -718,6 +718,7 @@ header .header-social li a:hover {
 	header {
 		background: black;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		background: transparent;
 	}
 
 	header .row {
@@ -945,6 +946,7 @@ ul#nav li.current a:after {
 
 	.js #nav-wrap a#toggle-btn {
 		display: block;
+		border: 1px solid;
 	}
 
 	/* if js is disabled */
