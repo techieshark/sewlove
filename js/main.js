@@ -242,10 +242,8 @@
        mainClass: 'mfp-fade',
        callbacks: {
           beforeOpen: function() {
-            console.log('Start of popup initialization for: ');
-            console.log(this);
             var hash = this.items[this.index].hash;
-            console.log('preloading image for ' + hash);
+            // console.log('preloading image for ' + hash);
             fillPlaceholder(hash);
           },
        }
