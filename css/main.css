@@ -651,6 +651,9 @@ header.opaque {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	background: #FFFFD6;
 }
+.no-js header {
+	background: #FFFFD6;
+}
 
 /* header logo */
 header .logo {
