@@ -1481,6 +1481,20 @@ ul#nav li.current a:after {
 	transform: scale(1.1);
 }
 
+.no-js .b-lazy {
+	display: none;
+}
+
+.b-lazy {
+	width: 100%;
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+.b-lazy.b-loaded {
+	-webkit-filter: none; /* un-blur after loaded */
+	filter: none;
+}
+
 /* media queries - .portfolio-item-meta */
 
 @media only screen and (max-width:500px) {
