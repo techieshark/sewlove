@@ -1598,6 +1598,38 @@ ul#nav li.current a:after {
 	border: none;
 }
 
+/* placeholder blur effect */
+/* see https://jmperezperez.com/medium-image-progressive-loading-placeholder/ */
+
+.placeholder {
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1s linear;
+}
+
+html.no-js .placeholder img {
+  opacity: 1;
+}
+
+html.js .placeholder img.loaded {
+  opacity: 1;
+}
+
+.img-small {
+  filter: blur(50px);
+}
+
 /* media queries - popup-modal */
 
 @media only screen and (max-width:600px) {

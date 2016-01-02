@@ -196,13 +196,59 @@
    /*----------------------------------------------------*/
 	/*	Modal Popup
 	------------------------------------------------------*/
+
+    /* fill the placeholder found in the specified container (e.g. #modal-01) */
+    function fillPlaceholder (containerSelector) {
+      var placeholder = document.querySelector(containerSelector + ' .placeholder');
+
+      if (!placeholder) {
+        console.log("Placeholder not found for " + containerSelector + ", skipping.");
+        return;
+      }
+      if (placeholder.classList.contains('placeholder-filled')) {
+        console.log('Placeholder previously filled; skipping');
+        return;
+      }
+
+      var small = placeholder.querySelector('.img-small');
+      var alt = small.getAttribute('alt');
+
+      // 1: load small image and show it
+      var img = new Image();
+      img.src = small.src;
+      img.onload = function () {
+       small.classList.add('loaded');
+      };
+
+      // 2: load large image
+      var imgLarge = new Image();
+      imgLarge.src = placeholder.dataset.large;
+      imgLarge.setAttribute('alt', alt);
+      imgLarge.onload = function () {
+        imgLarge.classList.add('loaded');
+      };
+      placeholder.appendChild(imgLarge);
+      placeholder.classList.add('placeholder-filled');
+
+    }
+
+
     $('.item-wrap a').magnificPopup({
 
        type:'inline',
        fixedContentPos: false,
        removalDelay: 300,
        showCloseBtn: false,
-       mainClass: 'mfp-fade'
+       mainClass: 'mfp-fade',
+       callbacks: {
+          beforeOpen: function() {
+            console.log('Start of popup initialization for: ');
+            console.log(this);
+            var hash = this.items[this.index].hash;
+            console.log('preloading image for ' + hash);
+            fillPlaceholder(hash);
+          },
+       }
 
     });
 
