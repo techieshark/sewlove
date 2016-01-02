@@ -1644,6 +1644,7 @@ html.js .placeholder img.loaded {
 }
 
 .img-small {
+  -webkit-filter: blur(50px);
   filter: blur(50px);
 }
 
