@@ -982,7 +982,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #FBEDC4 url(../images/hero-bg-min.jpg) no-repeat center;
+	background: #FBEDC4 url(../images/2500/hero-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1076,7 +1076,7 @@ ul#nav li.current a:after {
 /* fetch smaller image for iphone 2-4 */
 @media only screen and (max-device-width : 480px) {
 	#hero {
-		background: #FBEDC4 url(../images/hero-bg-960.jpg) no-repeat center; /* retina size */
+		background: #FBEDC4 url(../images/960/hero-bg.jpg) no-repeat center; /* retina size */
 	}
 }
 
