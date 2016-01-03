@@ -1569,6 +1569,11 @@ ul#nav li.current a:after {
 	margin-bottom: 12px;
 }
 
+.popup-modal .description-box a {
+	color: #389A8A;
+	text-decoration: underline;
+}
+
 /* categories */
 .popup-modal .categories {
 	font: 11px/18px "Source Sans Pro", sans-serif;
