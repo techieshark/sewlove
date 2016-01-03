@@ -151,8 +151,8 @@ em {
 
 strong,
 b {
-	font: 16px/30px "merriweather-bold", serif;
-	font-weight: normal;
+	font: 16px/30px "Source Sans Pro", serif;
+	font-weight: bold;
 }
 
 small {
@@ -204,7 +204,8 @@ blockquote cite a:visited {
 }
 
 abbr {
-	font-family: "merriweather-bold", serif;
+	font-family: "Source Sans Pro", serif;
+	font-weight: bold;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .5px;
@@ -600,7 +601,8 @@ hr {
 	}
 
 	.section-head p {
-		font: 18px/36px "merriweather-light", serif;
+		font: 18px/36px "Source Sans Pro", serif;
+		font-weight: lighter;
 		width: auto;
 	}
 
@@ -613,7 +615,8 @@ hr {
 
 @media only screen and (max-width:600px) {
 	.section-head p {
-		font: 17px/33px "merriweather-light", serif;
+		font: 17px/33px "Source Sans Pro", serif;
+		font-weight: lighter;
 		width: auto;
 	}
 
@@ -1032,7 +1035,8 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption h3 {
-	font: 18px/1.9 "merriweather-light", sans-serif;
+	font: 18px/1.9 "Source Sans Pro", sans-serif;
+	font-weight: lighter;
 	color: rgba(255, 255, 255, 0.7);
 	text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
 	width: 85%;
@@ -1560,7 +1564,7 @@ ul#nav li.current a:after {
 }
 
 .popup-modal .description-box p {
-	font: 14px/24px "merriweather-regular", serif;
+	font: 14px/24px "Source Sans Pro", serif;
 	color: #A1A1A1;
 	margin-bottom: 12px;
 }
