@@ -1648,8 +1648,8 @@ html.js .placeholder img.loaded {
 }
 
 .img-small {
-  -webkit-filter: blur(50px);
-  filter: blur(50px);
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
 }
 
 /* media queries - popup-modal */
