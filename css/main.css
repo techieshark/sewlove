@@ -2318,7 +2318,7 @@ html.js .placeholder img.loaded {
 	margin-bottom: 6px;
 }
 
-#contact p {
+#contact p, #contact li {
 	color: #707273;
 }
 
